@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f9;
+  padding: 50px;
+}
+
+.time {
+  color: #888;
+  font-size: 0.9em;
+  margin-top: 15px;
+}

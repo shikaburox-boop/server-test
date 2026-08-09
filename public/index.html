@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ESP32 Dashboard</title>
+  <title>ESP32 Internal Health Monitor</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="card">
-    <h2>🌡️ ESP32 Live Monitor</h2>
-    <p>อุณหภูมิ: <span id="temp" class="val">--</span> °C</p>
-    <p>ความชื้น: <span id="hum" class="val">--</span> %</p>
+    <h2>📟 ESP32 Internal Health Monitor</h2>
+    <hr>
+    <p>🌡️ อุณหภูมิชิป: <span id="temp" class="val">--</span> °C</p>
+    <p>📡 สัญญาณ Wi-Fi (RSSI): <span id="rssi" class="val">--</span> dBm</p>
     <div class="time">อัปเดตล่าสุด: <span id="time">--</span></div>
   </div>
 
